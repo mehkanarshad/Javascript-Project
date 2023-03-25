@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  color: rgb(240, 244, 240);
+  font-size: 62.5%;
+}
+img {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+.elements {
+  display: flex;
+  gap: 3rem;
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.subelement {
+  padding: 0.7rem;
+  background-color: rgba(0, 0, 0, 0.658);
+  border: 2px solid black;
+  text-align: center;
+  transition: 2s background-color ease-in;
+}
+h3 {
+  font-size: 2rem;
+  color: rgb(255, 183, 0);
+}
+.playing {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgb(255, 183, 0);
+}
